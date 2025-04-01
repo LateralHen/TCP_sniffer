@@ -81,16 +81,19 @@ Compila il file `main.c` e genera l'eseguibile `sniffer`.
 ## ▶️ Esecuzione
 
 ### Sniffing su **tutte le porte TCP**
+
 ```bash
 sudo ./sniffer
 ```
 
 ### Sniffing **solo su una porta specifica** (es. porta 80):
+
 ```bash
 sudo ./sniffer -p 80
 ```
 
 Durante l'esecuzione vedrai in tempo reale qualcosa del genere:
+
 ```text
 🔵 Sniffer avviato: 2025-04-01 21:10:32
 [TCP] 192.168.1.2:443 --> 10.0.0.5:55012
